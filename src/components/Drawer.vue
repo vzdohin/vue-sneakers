@@ -74,13 +74,13 @@ const createOrder = async () => {
         v-if="!totalPrice && !orderId"
         title="Корзина пустая"
         description="Добавьте хоть одну пару кроссовок, чтобы сделать заказ."
-        image-url="../../public/package-icon.png"
+        image-url="../../package-icon.png"
       />
       <InfoBlock
         v-if="orderId"
         title="Заказ оформлен"
         :description="`Ваш заказ №${orderId} скоро будет передан курьерской доставкой.`"
-        image-url="../../public/order-success-icon.png"
+        image-url="../../order-success-icon.png"
       />
     </div>
 
