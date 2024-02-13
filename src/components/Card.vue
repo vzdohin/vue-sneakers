@@ -18,9 +18,9 @@ defineProps({
     <div class="relative">
       <img
         v-if="onClickFavorite"
-        :src="!isFavorite ? '/like-1.svg' : '/like-2.svg'"
+        :src="!isFavorite ? '/like1.png' : '/like2.png'"
         alt="like"
-        class="absolute top-8 left-8 shadow-xl"
+        class="absolute top-8 left-8 shadow-xl w-4 h-4"
         @click="onClickFavorite"
       />
       <img :src="imageUrl" alt="sneaker" class="" />
